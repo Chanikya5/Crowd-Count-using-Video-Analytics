@@ -6,7 +6,7 @@ import sqlite3
 from flask import Flask, render_template, request, redirect, url_for, session, flash, jsonify, Response, stream_with_context
 from werkzeug.security import generate_password_hash, check_password_hash
 from werkzeug.utils import secure_filename
-
+# import all required packages
 app = Flask(__name__)
 app.secret_key = "0KjsCksm3S9uqknLecDIfE3f8HcXgwZC9QSw-82h32BV6Vo4TPDNL_CPidwY1P_lK-YSrltS_308vuAJAzXGWA"
 app.config['UPLOAD_FOLDER'] = 'static/uploads/'
